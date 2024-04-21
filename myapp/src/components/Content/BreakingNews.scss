@@ -1,0 +1,178 @@
+.tabs-page{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    padding: 12px 16px !important;
+    min-width: 70px !important;
+}
+.breakingnews{
+    &-page{
+        &-middle {
+            background-color: rgb(170, 3, 3);
+            height: 30px;
+            border: 2px solid darkred;
+            margin-left: 40px;
+            margin-right: 40px;
+            display: flex;
+            align-items: center;
+            color: white;
+            font-weight: 500;
+            &-text {
+                margin-left: 15px;
+            }
+            &-button{
+                color: rgb(255, 255, 255);
+                line-height: 1rem;
+                font-size: 1.5rem;
+                cursor: pointer;
+                position: relative;
+                background-color: transparent;
+                border: none;
+                align-items: center;
+                display: flex;
+                left: 390px;
+            }
+        }
+    }
+}
+
+.content{
+    display: flex;
+    &-page {
+        &-left{
+            width: 45%;
+            margin-left: 40px;
+            margin-top: 20px;
+            &-up{
+                height: 250px;
+            }
+        }
+        &-downn{
+            display: flex;
+        }
+        &-down{
+            // width: 50%;
+            height: 85px;
+            margin-top: 20px;
+            margin-right: 20px;
+            border: 1px solid white;
+            display: flex;
+            box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.14);
+            &-image{
+                width: 35%;
+                height: 85px;
+                display: flex;
+            }
+            &-text{
+                font-size: 12px;
+                width: 65%;
+                height: 60px;
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                align-items: start;
+                &-channel {
+                    align-items: center;
+                    display: flex;
+                    text-align: center;
+                    justify-content: start;
+                    gap: 8px;
+                    margin-left: 10px;
+                    &-image{
+                        width: 15%;
+                    }
+                }
+            }
+        }
+        &-right {
+            width: 70%;
+            margin-top: 20px;
+            margin-left: 25px;
+            text-align: left;
+            display: flex;
+            margin-right: 40px;
+            &-one {
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+            }
+            &-two{
+                width: 50%;
+            }
+            &-image{
+                width: 90%;
+                height: 35%;
+                >img {
+                    height: 100%;
+                    width: 100%;
+                }
+                &-text {
+                    z-index: 1;
+                    position: relative;
+                    bottom: 40%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+
+.slick-slider {
+    position: relative !important;
+    display: block !important;
+    height: 250px !important;
+}
+.slick-prev {
+    left: 2px !important;
+}
+.slick-next {
+    right: 9px !important;
+}
+.slick-prev, .slick-next{
+    z-index: 1 !important;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 30px !important;
+    line-height: 1;
+    opacity: .75 !important;
+    color: grey !important;
+}
+.slick-dots {
+    bottom: 6px !important;
+}
+
+.slick-slide img {
+    display: block !important;
+    height: 250px !important;
+    width: 50% !important;
+}
+
+.slideshow {
+    &-block{
+        &-image{
+            display: flex !important;
+        }
+        &-text{
+            position: absolute;
+            top: 72%;
+            transform: translate(-50%, -50%);
+            color: white;
+            padding: 10px;
+            font-size: 20px;
+            z-index: 1;
+            width: 500px;
+            height: 30px;
+        }
+        
+    }
+}
